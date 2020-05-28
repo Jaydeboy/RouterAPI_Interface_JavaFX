@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1182.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainWindowController">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="7.0" mouseTransparent="true" prefHeight="88.0" prefWidth="335.0" text="Social Security Hearing Offices" textAlignment="CENTER" textFill="#d14f4f" textOverrun="CENTER_ELLIPSIS" AnchorPane.bottomAnchor="712.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="673.6666666666667" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView layoutX="580.0" layoutY="88.0" prefHeight="519.0" prefWidth="421.0" AnchorPane.leftAnchor="580.0" AnchorPane.rightAnchor="14.666666666666686">
+        <columns>
+          <TableColumn prefWidth="266.6666259765625" text="Hearing Office" />
+          <TableColumn prefWidth="153.3333740234375" text="Average Wait Times" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
