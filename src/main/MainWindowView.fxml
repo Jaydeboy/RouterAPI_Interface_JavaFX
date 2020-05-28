@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1182.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainWindowController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1182.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainWindowController">
    <children>
       <Label contentDisplay="CENTER" layoutX="7.0" mouseTransparent="true" prefHeight="88.0" prefWidth="335.0" text="Social Security Hearing Offices" textAlignment="CENTER" textFill="#d14f4f" textOverrun="CENTER_ELLIPSIS" AnchorPane.bottomAnchor="712.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="673.6666666666667" AnchorPane.topAnchor="0.0">
          <font>
