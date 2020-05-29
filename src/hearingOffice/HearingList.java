@@ -1,8 +1,5 @@
-package hearingOffice.office_List;
-
-
-
-import hearingOffice.HearingOffices.Hearing_Office;
+package hearingOffice;
+import hearingOffice.Hearing_Office;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +7,7 @@ import java.util.Map;
 public class HearingList {
 
 
-    private static Map<Integer, Hearing_Office> hearingOfficeList = new HashMap<>();
+    public static Map<Integer, Hearing_Office> hearingOfficeList = new HashMap<>();
 
 
 
