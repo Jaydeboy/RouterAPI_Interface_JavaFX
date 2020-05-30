@@ -1,15 +1,15 @@
 package main;
 
-import hearingOffice.SerializationXML;
+import hearingOffice.Serialization;
 
 public class Model {
 
 
-    private SerializationXML sXML;
+    private Serialization sXML;
 
 
     public Model(){
-        sXML = new SerializationXML();
+
 
 
     }

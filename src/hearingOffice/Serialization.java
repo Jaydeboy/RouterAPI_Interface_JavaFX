@@ -9,12 +9,12 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 
 
-public class SerializationXML{
+public class Serialization {
+
+
 
     public static void Hearing_wait_Time_XML_To_Object() throws IOException, ParserConfigurationException
                                                                 , SAXException {
@@ -53,8 +53,7 @@ public class SerializationXML{
 
                         Hearing_Office office = new Hearing_Office(office_Name,
                                             ho_Code,region,averageOfficeTimesInMonths);
-
-
+                        
 
                         HearingList.hearingOfficeList.put(ho_Code, office);
                     }

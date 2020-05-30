@@ -1,0 +1,25 @@
+.root{
+
+  -fx-cursor: hand;
+  -fx-background-color:gray;
+  -fx-font-size: 14px;
+  -fx-font-alignment:center;
+
+}
+
+.table-row-cell:odd{
+
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+ .table-row-cell:selected{
+        -fx-background-color: slategrey;
+        -fx-background-insets: 0;
+        -fx-background-radius: 8;
+
+ }
+.table-column{
+
+    -fx-alignment: center;
+
+}

@@ -32,4 +32,13 @@ public class Hearing_Office {
         return processingTime;
     }
 
+    @Override
+    public String toString() {
+        return "Hearing_Office{" +
+                "ho_Code=" + ho_Code +
+                ", hearingOfficeName='" + hearingOfficeName + '\'' +
+                ", region=" + region +
+                ", processingTime=" + processingTime +
+                '}';
+    }
 }
