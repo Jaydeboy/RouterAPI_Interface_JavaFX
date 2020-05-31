@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="967.0" prefWidth="1374.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <TableView fx:id="tableView" layoutX="239.0" layoutY="578.0" prefHeight="389.0" prefWidth="1135.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="578.0">
+        <columns>
+          <TableColumn fx:id="officeNameColumn" prefWidth="75.0" text="Office Name" />
+          <TableColumn fx:id="ho_codeColumn" prefWidth="75.0" text="Office Code" />
+            <TableColumn fx:id="regionColumn" prefWidth="75.0" text="Region" />
+            <TableColumn fx:id="averageWaitTimeColumn" prefWidth="75.0" text="Average Wait Time" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button layoutX="36.0" layoutY="858.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="124.0" text="Save To Database" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="1214.0" AnchorPane.topAnchor="858.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="577.0" layoutX="239.0" layoutY="-10.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE" width="1135.0" AnchorPane.bottomAnchor="390.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

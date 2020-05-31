@@ -1,4 +1,4 @@
-package hearingOffice;
+package model;
 
 
 
@@ -10,7 +10,7 @@ public class Hearing_Office {
     private final double processingTime;
 
 
-    public Hearing_Office(String hearing_Office_Name, int ho_Code, int region, double processingTime) {
+    public Hearing_Office( int ho_Code,String hearing_Office_Name, int region, double processingTime) {
 
         this.hearingOfficeName = hearing_Office_Name;
         this.ho_Code = ho_Code;
